@@ -125,6 +125,12 @@
   <ItemGroup>
     <ClCompile Include="MetodOptimized_Lab4.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fletcher-reeves.h" />
+    <ClInclude Include="gradient_descent.h" />
+    <ClInclude Include="newton-raphson.h" />
+    <ClInclude Include="newton.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
